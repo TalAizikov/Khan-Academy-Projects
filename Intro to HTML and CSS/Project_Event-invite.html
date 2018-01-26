@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+        body{
+            background-color: rgb(24, 42, 74);
+            font-family: cursive;
+        }
+        .title{
+            text-align: center;
+            color: rgb(222, 3, 200);
+            
+        }
+        #dont{
+            color:red;
+            font-weight: bold;
+            font-style: italic;
+        }
+        #list{
+            color:grey;
+            float:left;
+            border: dashed crimson 2px;
+            width:30%;
+            margin-left:20px;
+        }
+        #hopper{
+            position: fixed;
+            width:50px;
+            right: 25px;
+        }
+        
+        #scrolldown{
+            color:grey;
+            float:right;
+            background-color:lightgrey;
+            width:55%;
+            margin:auto;
+            height:200px;
+            overflow: auto;
+            padding-left: 10px;
+            padding-right:10px;
+            margin-right:20px;
+            text-indent: 15px;
+            z-index:2;
+        }
+        
+        #lot{
+            font-size:24px;
+            font-weight: bold;
+            color: purple;
+        }
+        #random-leaf{
+            float:right;
+            position:relative;
+            /*right:50%;*/
+            text-align:left;
+            padding-top:5px;
+            width:50px;
+            z-index: 1;
+            /*margin-top:10px;*/
+        }
+        #welcome{
+            position:absolute;
+            top: 323px;
+            left:50%;
+        }
+        </style>
+    </head>
+    <body>
+        <img id="hopper" src="https://www.kasandbox.org/programming-images/creatures/Hopper-Cool.png">
+        
+        <h1 class="title">The Silent Party</h1>
+        <h2 class="title"> The most lame party you've ever seen</h2>
+        
+        <div id="list">
+        
+                <p class = "title">What we <span id="dont">don't</span> have:</p>
+        <ul>
+            <li>Music</li>
+            <li>Alcohol</li>
+            <li>People</li>
+            <li>A Life</li>
+            <li>Fun</li>
+            <li>Popularity</li>
+            <li>A <span id="lot">lot</span> more</li>
+            
+        </ul> </div>
+        <div id="scrolldown">
+                <h3 class = "title">
+            Why is the party lame?
+        </h3>
+        <p id="excuse">
+            Many reasons!!@ 
+        </p>
+        </div>
+
+   <a href="https://facebook.com/young.re.song"> <img id = "welcome" src="https://www.kasandbox.org/programming-images/cute/Heart.png"></a>
+    </body>
+</html>
